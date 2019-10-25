@@ -14,7 +14,7 @@ export class AppComponent  {
   }
 
   hacerSwitch(){
-    this.mostarContent ? this.mostarContent = false: this.mostarContent = true;
+    this.mostarContent = !this.mostarContent ;
 
   }
 }
